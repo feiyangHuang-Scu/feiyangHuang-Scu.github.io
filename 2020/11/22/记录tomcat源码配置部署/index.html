@@ -14,19 +14,18 @@
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description" content="欢迎大家来到fy的blog">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="c:/Users/Lenovo/AppData/Roaming/Typora/typora-user-images/image-20201122201730850.png">
-<meta property="og:image" content="c:/Users/Lenovo/AppData/Roaming/Typora/typora-user-images/image-20201122201937823.png">
-<meta property="og:image" content="c:/Users/Lenovo/AppData/Roaming/Typora/typora-user-images/image-20201122202516409.png">
-<meta property="og:image" content="c:/Users/Lenovo/AppData/Roaming/Typora/typora-user-images/image-20201122202718171.png">
-<meta property="og:image" content="c:/Users/Lenovo/AppData/Roaming/Typora/typora-user-images/image-20201122202940008.png">
-<meta property="og:image" content="c:/Users/Lenovo/AppData/Roaming/Typora/typora-user-images/image-20201122203047291.png">
-<meta property="og:image" content="c:/Users/Lenovo/AppData/Roaming/Typora/typora-user-images/image-20201122203106609.png">
+<meta property="og:image" content="http://example.com/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212336873.png">
+<meta property="og:image" content="http://example.com/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212407288.png">
+<meta property="og:image" content="http://example.com/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212428542.png">
+<meta property="og:image" content="http://example.com/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212449819.png">
+<meta property="og:image" content="http://example.com/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212504931.png">
+<meta property="og:image" content="http://example.com/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212516001.png">
 <meta property="article:published_time" content="2020-11-22T12:14:19.000Z">
-<meta property="article:modified_time" content="2020-11-22T12:56:35.926Z">
+<meta property="article:modified_time" content="2020-11-22T13:25:27.703Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="这是第一次写blog，希望可以坚持,博主jdk14.0.2+tomcat9.0.40+maven3.6.3">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="c:/Users/Lenovo/AppData/Roaming/Typora/typora-user-images/image-20201122201730850.png">
+<meta name="twitter:image" content="http://example.com/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212336873.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -102,9 +101,9 @@
 
 <p>1.源码下载</p>
 <p>下载从官方<a target="_blank" rel="noopener" href="https://tomcat.apache.org/download-90.cgi">https://tomcat.apache.org/download-90.cgi</a></p>
-<p><img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201122201730850.png" alt="image-20201122201730850">这里用的是9.0.40版本</p>
+<p>这里用的是9.0.40版本</p>
 <p>下载之后解压</p>
-<p><img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201122201937823.png" alt="image-20201122201937823"></p>
+<p><img src="/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212336873.png" alt="image-20201122212336873"></p>
 <p>创建文件夹catalina-home，并且将源码文件下的conf文件夹和webapps放入我们刚才创建的文件夹下面</p>
 <p>然后创建pom.xml文件导入maven依赖</p>
 <p>pom.xml代码如下</p>
@@ -112,14 +111,14 @@
 
 <p>然后利用IDEA import选中刚才的pom.xml可以导入工程</p>
 <p>之后设置 configuration</p>
-<p><img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201122202516409.png" alt="image-20201122202516409"></p>
+<p><img src="/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212407288.png" alt="image-20201122212407288"></p>
 <p>VM options里面的内容如下</p>
 <blockquote>
 <p>-Dcatalina.home=D:\codingLife\tomcat\apache-tomcat-9.0.40-src\catalina-home<br>-Dcatalina.base=D:\codingLife\tomcat\apache-tomcat-9.0.40-src\catalina-home<br>-Djava.io.tmpdir=D:\codingLife\tomcat\apache-tomcat-9.0.40-src\catalina-home\temp<br>-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager<br>-Djava.util.logging.config.file=D:\codingLife\tomcat\apache-tomcat-9.0.40-src\catalina-home\catalina-home\conf\logging.properties<br>-Dfile.encoding=UTF-8<br>-Dsun.jnu.encoding=UTF-8</p>
 </blockquote>
 <p>注意 上面那些路径改为自己刚才创建catalina-home的路径</p>
 <p>然后点击运行即可，可能会出现jdk错误</p>
-<p><img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201122202718171.png" alt="image-20201122202718171"></p>
+<p><img src="/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212428542.png" alt="image-20201122212428542"></p>
 <p>把从jdk1.9开始到自己jdk版本的全部注释掉即可</p>
 <p>然后发现还是会报错，</p>
 <p>打开127.0.0.1:8080后会出现500错误，提示无法初始化jsp。</p>
@@ -127,23 +126,27 @@
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">context.addServletContainerInitializer(<span class="keyword">new</span> JasperInitializer(),<span class="keyword">null</span>);</span><br></pre></td></tr></table></figure>
 
 <p>如图所示</p>
-<p><img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201122202940008.png" alt="image-20201122202940008"></p>
+<p><img src="/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212449819.png" alt="image-20201122212449819"></p>
 <p>然后就可以运行源码啦</p>
-<p><img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201122203047291.png" alt="image-20201122203047291"></p>
+<p><img src="/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212504931.png" alt="image-20201122212504931"></p>
 <p>成功进入</p>
-<p><img src="C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20201122203106609.png" alt="image-20201122203106609"></p>
+<p><img src="/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/image-20201122212516001.png" alt="image-20201122212516001"></p>
 <p>记录几个小错误：</p>
 <ul>
-<li>提示sun.rmi.registry.有个程序包不存在，alt加空格选择 add export即可</li>
-<li>提示mvn依赖不存在的时候可以直接下载</li>
-<li>利用好maven的官方网站   <a target="_blank" rel="noopener" href="https://mvnrepository.com/">https://mvnrepository.com/</a> 可以查询mvn依赖有哪些，缺的那些</li>
-<li>有个找jar包的网站，虽然有时候经常挂掉，但是找jar包很舒适，也可以提供相应的mvn依赖代码<a target="_blank" rel="noopener" href="https://www.findjar.com/">https://www.findjar.com/</a></li>
+<li><p>提示sun.rmi.registry.有个程序包不存在，alt加空格选择 add export即可</p>
+</li>
+<li><p>提示mvn依赖不存在的时候可以直接下载</p>
+</li>
+<li><p>利用好maven的官方网站   <a target="_blank" rel="noopener" href="https://mvnrepository.com/">https://mvnrepository.com/</a> 可以查询mvn依赖有哪些，缺的那些</p>
+</li>
+<li><p>有个找jar包的网站，虽然有时候经常挂掉，但是找jar包很舒适，也可以提供相应的mvn依赖代码<a target="_blank" rel="noopener" href="https://www.findjar.com/">https://www.findjar.com/</a></p>
+</li>
 </ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/" data-id="ckht4l89900012kugb31b9k7p" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2020/11/22/%E8%AE%B0%E5%BD%95tomcat%E6%BA%90%E7%A0%81%E9%85%8D%E7%BD%AE%E9%83%A8%E7%BD%B2/" data-id="ckht5mchk0001skughoge4uxy" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%BF%99%E6%98%AF%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%86%99blog%EF%BC%8C%E5%B8%8C%E6%9C%9B%E5%8F%AF%E4%BB%A5%E5%9D%9A%E6%8C%81-%E5%8D%9A%E4%B8%BBjdk14-0-2-tomcat9-0-40-maven3-6-3/" rel="tag">这是第一次写blog，希望可以坚持,博主jdk14.0.2+tomcat9.0.40+maven3.6.3</a></li></ul>
